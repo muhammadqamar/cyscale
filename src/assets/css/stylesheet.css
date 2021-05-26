@@ -4,9 +4,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    margin: 0
+}
+
 .navbar .login {
     background: transparent linear-gradient(90deg, #0F26AA 11%, #FF4A56 88%) 0% 0% no-repeat padding-box;
 }
 
+.bg-footer-texture {
+    background-image: url('../images/footerbg.png');
+    background-repeat: no-repeat;
+    background-position: 101% 103%;
+    background-size: 173px;
+}
 
  

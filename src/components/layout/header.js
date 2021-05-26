@@ -1,12 +1,12 @@
 import React from "react";
 import { Nav,Navbar,NavDropdown } from "react-bootstrap";
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 import "../../assets/css/stylesheet.css"
 const Header = () => {
   return (
     <div className="h-80px  bg-transparent absolute w-full top-0">
-    <Navbar  className="flex max-w-1440px m-auto h-full justify-between items-center" expand="lg">
-      <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
+    <Navbar  className="flex max-w-1366px m-auto h-full justify-between items-center pl-80px pr-40px" expand="lg">
+      <Navbar.Brand href="#home"><img src={logo} className="w-153px" alt="" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto justify-end w-full navbarlinks">
